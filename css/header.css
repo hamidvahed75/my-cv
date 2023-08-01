@@ -1,7 +1,7 @@
 body > header {
   text-align: center;
   background-color: var(--color-midnightblue);
-  background: linear-gradient(180deg, blue, orange);
+  background: linear-gradient(180deg, var(--color-blue), var(--color-orange));
   padding: 4rem;
   color: var(--color-ghostwhite);
 }
@@ -27,5 +27,5 @@ ul li a {
 }
 
 ul li a:hover {
-  color: var(--color-purple);
+  color: var(--color-midnightblue);
 }
