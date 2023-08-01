@@ -1,8 +1,14 @@
 body > header {
   text-align: center;
   background-color: var(--color-MidnightBlue);
-  padding: 1rem;
+  padding: 4rem;
   color: var(--color-GhostWhite);
+}
+
+.header__nav > ul {
+  display: flex;
+  justify-content: center;
+  gap: 0.7rem;
 }
 
 nav ul {
