@@ -13,11 +13,11 @@ html {
 body {
   --color-black: #141313;
   --color-white: #ffffff;
-  --color-GhostWhite: #f8f8ff;
+  --color-ghostwhite: #f8f8ff;
   --color-grey: #898989;
-  --color-red: #fc1a52;
+  --color-darkorange: #ff8c00;
   --color-purple: #cb06d9;
-  --color-MidnightBlue: #191970;
+  --color-midnightblue: #191970;
 }
 
 body {
