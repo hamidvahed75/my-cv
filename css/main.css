@@ -9,9 +9,21 @@ html {
   font-size: 1em;
 }
 
+/* ANCHOR Custom Properties */
+body {
+  --color-black: #141313;
+  --color-white: #e2e2e2;
+  --color-GhostWhite: #f8f8ff;
+  --color-grey: #898989;
+  --color-red: #fc1a52;
+  --color-purple: #cb06d9;
+  --color-MidnightBlue: #191970;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #c8c3c3;
+  background-color: var(--color-GhostWhite);
+  color: var(--color-black);
 }
 
 header,
@@ -22,4 +34,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   padding-left: 1rem;
+}
+
+a {
+  cursor: pointer;
 }
