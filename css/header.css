@@ -1,8 +1,13 @@
 body > header {
   text-align: center;
-  background-color: var(--color-MidnightBlue);
+  background-color: var(--color-midnightblue);
+  background: linear-gradient(180deg, blue, orange);
   padding: 4rem;
-  color: var(--color-GhostWhite);
+  color: var(--color-ghostwhite);
+}
+
+.header__paragraph {
+  padding: 1rem;
 }
 
 .header__nav > ul {
@@ -17,7 +22,7 @@ nav ul {
 }
 
 ul li a {
-  color: var(--color-GhostWhite);
+  color: var(--color-ghostwhite);
   text-decoration: none;
 }
 
