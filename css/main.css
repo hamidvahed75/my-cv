@@ -3,6 +3,10 @@
   letter-spacing: 0.1rem;
 }
 
+.main > * {
+  border-bottom: 1px solid black;
+}
+
 .main .profile {
   padding-bottom: 2rem;
   text-align: center;
@@ -15,10 +19,41 @@
 }
 
 .experience h2 {
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
 section + section {
+  padding: 1.5rem 0;
+}
+
+h3 {
+  padding-bottom: 0.3rem;
+}
+
+.main__experience__paragraph {
+  padding-bottom: 1rem;
+}
+
+.skills__heading {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.skills__section > h3 {
   padding: 1rem 0;
+}
+
+.skills__subheading + ul {
+  padding: 0 4rem;
+}
+
+.contact__heading {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.contact__heading + ol {
+  padding: 0 4rem;
 }
