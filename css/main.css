@@ -1,1 +1,24 @@
+.main {
+  padding: 2.5rem 0;
+  letter-spacing: 0.1rem;
+}
 
+.main .profile {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.profile > p {
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.experience h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+section + section {
+  padding: 1rem 0;
+}
