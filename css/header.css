@@ -4,6 +4,7 @@ body > header {
   background: linear-gradient(180deg, var(--color-blue), var(--color-orange));
   padding: 4rem;
   color: var(--color-ghostwhite);
+  letter-spacing: 0.15rem;
 }
 
 .header__paragraph {
