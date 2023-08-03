@@ -32,6 +32,10 @@
   padding-bottom: 2rem;
 }
 
+.main__experience-mainPragraph {
+  padding-top: 1rem;
+}
+
 section + section {
   padding: 1.5rem 0;
 }
