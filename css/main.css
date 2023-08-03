@@ -15,6 +15,10 @@
   text-align: center;
 }
 
+.main__profile-paragraph::after {
+  content: "🚀";
+}
+
 .main > * {
   border-bottom: 1px solid black;
 }
@@ -42,6 +46,10 @@ h3 {
 
 .skills__heading {
   padding-top: 1rem;
+}
+
+.skills__heading::after {
+  content: "💻";
 }
 
 .skills__section > h3 {
