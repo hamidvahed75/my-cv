@@ -40,3 +40,16 @@ footer {
 a {
   cursor: pointer;
 }
+
+a:hover {
+  color: var(--color-midnightblue);
+}
+
+a:active {
+  color: var(--color-orange);
+}
+
+* ::selection {
+  background-color: var(--color-grey);
+  color: var(--color-white);
+}

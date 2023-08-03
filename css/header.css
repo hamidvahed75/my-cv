@@ -11,6 +11,10 @@ body > header {
   padding: 1rem;
 }
 
+.header__paragraph::after {
+  content: "😎";
+}
+
 .header__nav > ul {
   display: flex;
   justify-content: center;
@@ -26,7 +30,12 @@ ul li a {
   color: var(--color-ghostwhite);
   text-decoration: none;
 }
-
+/*
 ul li a:hover {
   color: var(--color-midnightblue);
 }
+
+ul li a:active {
+  color: var(--color-orange);
+}
+*/
