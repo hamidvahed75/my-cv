@@ -89,3 +89,32 @@ section + section {
   background-color: var(--color-black);
   color: var(--color-white);
 }
+
+/* ANCHOR Desktop First Breackpoints*/
+
+@media screen and (max-width: 1024px) {
+  .main__profile-heading,
+  .main__experience-title,
+  .skills__heading,
+  .contact__heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__profile-heading,
+  .main__experience-title,
+  .skills__heading,
+  .contact__heading {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .main__profile-heading,
+  .main__experience-title,
+  .skills__heading,
+  .contact__heading {
+    font-size: 1rem;
+  }
+}

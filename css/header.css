@@ -16,7 +16,7 @@
 
 .header__subheading {
   text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding-bottom: 2rem;
 }
 
@@ -27,7 +27,11 @@
 .header__subheading::after {
   content: "😎";
 }
-
+/*
+.header__nav {
+  position: relative;
+}
+*/
 .header__nav > ul {
   display: flex;
   justify-content: center;
@@ -44,13 +48,116 @@ ul li a {
   text-decoration: none;
 }
 
+.box__btn {
+  position: relative;
+}
+
 .btn__nav {
   border: 1px solid var(--primary-color);
   border-radius: 1rem;
-  padding: 0.5remrem;
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  position: relative;
-  top: -23rem;
-  right: -30rem;
+  font-size: 0.7rem;
+
+  position: absolute;
+  left: 60rem;
+  bottom: 22rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
 }
+
+/* ANCHOR Desktop First Breackpoints*/
+
+@media screen and (max-width: 1024px) {
+  .header__heading {
+    font-size: 3rem;
+  }
+
+  .header__subheading {
+    font-size: 1.2rem;
+  }
+
+  .btn__nav {
+    position: relative;
+    top: -20rem;
+    left: 25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__heading {
+    font-size: 2rem;
+  }
+
+  .header__subheading {
+    font-size: 0.9rem;
+  }
+
+  .btn__nav {
+    position: relative;
+    top: -16rem;
+    left: 20rem;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header__heading {
+    font-size: 1.5rem;
+  }
+
+  .header__subheading {
+    font-size: 0.8rem;
+  }
+
+  .btn__nav {
+    position: relative;
+    top: -16rem;
+    left: 15rem;
+  }
+}
+
+/* ANCHOR Mobile First Breackpoints*/
+/*
+@media screen and (min-width: 620px) {
+  .header__heading {
+    font-size: 2rem;
+  }
+
+  .header__subheading {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__heading {
+    font-size: 3rem;
+  }
+
+  .header__subheading {
+    font-size: 1.5rem;
+  }
+
+  .btn__nav {
+    position: sticky;
+    left: 0;
+    padding: 0.1rem;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .header__heading {
+    font-size: 3rem;
+  }
+
+  .header__subheading {
+    font-size: 1.5rem;
+  }
+
+  .btn__nav {
+    position: sticky;
+    left: 0;
+    padding: 0.1rem;
+  }
+}
+*/
