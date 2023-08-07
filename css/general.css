@@ -12,8 +12,8 @@ html {
 
 /* ANCHOR Custom Properties */
 body {
-  --color-black: #141313;
-  --color-white: #ffffff;
+  --primary-color: #141313;
+  --secondary-color: #ffffff;
   --color-ghostwhite: #f8f8ff;
   --color-grey: #898989;
   --color-darkorange: #ff8c00;
@@ -23,10 +23,15 @@ body {
   --color-orange: #ffa500;
 }
 
+.dark_mode {
+  --primary-color: #ffffff;
+  --secondary-color: #141313;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: var(--color-GhostWhite);
-  color: var(--color-black);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 header,

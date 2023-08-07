@@ -17,152 +17,132 @@
   <link rel="stylesheet" href="./lib/montserrat/webfonts/Montserrat.css">
 </head>
 
-<body>
-  <header class="header">
-    <h1 class="header__heading">Hamid Vahed</h1>
-    <p class="header__paragraph"><strong>Web Developer</strong></p>
-    <nav class="header__nav">
-      <ul>
-        <li><a href="#profile">Profile</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="main">
-    <article id="profile" class="profile">
-      <h2 class="main__profile-h2">Profile</h2>
-      <p class="main__profile-paragraph">
-        Hello and welcome to my Site. My name is Hamid an i <em>love</em> coding.
-      </p>
-    </article>
-    <article id="experience" class="experience">
-      <h2 class="main__experience-h2"><u>Experience</u></h2>
-      <section>
-        <header>
-          <h3 class="main__experience-h3">Coding Bootcamps EU - Student</h3>
-          <p class="main__experience-paragraph">Juli 2023 - Present</p>
-        </header>
-        <p class="main__experience-mainPragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-          autem necessitatibus. Modi magnam consectetur reiciendis a id
-          aperiam cupiditate totam eveniet excepturi! Expedita deserunt
-          debitis inventore perferendis totam excepturi cupiditate!
+<div class="dark_mode">
+
+  <body>
+    <!-- Header -->
+
+    <header class="header">
+      <div class="header__container">
+        <h1 class="header__heading">Hamid Vahed</h1>
+        <p class="header__subheading"><strong>Web Developer</strong></p>
+      </div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="header__dark-mode-btn" class="btn__nav">Change Theme</button>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+
+      <article id="profile">
+        <h2 class="main__profile-heading">Profile</h2>
+        <p class="main__profile-subheading">
+          Hello and welcome to my Site. My name is Hamid an i <em>love</em> coding.
         </p>
-        <!--
-        <ul>
-          <h4>Main activities</h4>
-          <li>HTML and CSS</li>
-          <li>JavaScript</li>
-          <li>Vue.js</li>
-          <li>Restful Backends</li>
-          <li>Refactoring and Testing</li>
-        </ul>
-        -->
-      </section>
+      </article>
+      <!-- Main-Experience -->
+      <article id="experience">
+        <h2 class="main__experience-title"><u>Experience</u></h2>
+        <section>
+          <header>
+            <h3 class="main__experience-heading">Coding Bootcamps EU - Student</h3>
+            <p class="main__experience-subheading">Juli 2023 - Present</p>
+          </header>
+          <p class="main__experience-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+            autem necessitatibus. Modi magnam consectetur reiciendis a id
+            aperiam cupiditate totam eveniet excepturi! Expedita deserunt
+            debitis inventore perferendis totam excepturi cupiditate!
+          </p>
+        </section>
 
-      <section>
-        <header>
-          <h3>Powercloud GmbH - Software Test Automation</h3>
-          <p class="main__experience__paragraph">Januar 2022 - August 2022</p>
-        </header>
-        <p>
-          Testing a web-based software solution in the field of energy supply. Automated testing of UI and API tests in
-          the frontend.
-          Project size: 9 people
-        </p>
-        <!--
-        <ul>
-          <h4>Main activities</h4>
-          <li>Automated software test</li>
-          <li>Manual software test</li>
-          <li>Introduction and training of xray in the team</li>
-          <li>Test Reporting</li>
-          <li>Agile approach(Scrum)</li>
-        </ul>
-        -->
-      </section>
+        <section>
+          <header>
+            <h3 class=" main__experience-heading">powercloud GmbH - Software Test Automation</h3>
+            <p class="main__experience-subheading">Januar 2022 - August 2022</p>
+          </header>
+          <p class="main__experience-paragraph">
+            Testing a web-based software solution in the field of energy supply. Automated testing of UI and API tests
+            in
+            the frontend.
+            Project size: 9 people
+          </p>
+        </section>
 
-      <section>
-        <header>
-          <h3>Personal training in the JavaScript and Puppeteer field </h3>
-          <p class="main__experience__paragraph">September 2020 - Dezember 2021</p>
-        </header>
-        <p>
-          I have trained myself in the field of javascript and Pupeteer during the time
-        </p>
-        <!--
-        <ul>
-          <h4>Main activities</h4>
-          <li>JavaScript basics</li>
-          <li>JSON</li>
-          <li>JavaScript in browser</li>
-        </ul>
-        -->
-      </section>
+        <section>
+          <header>
+            <h3 class="main__experience-heading">Personal training in the JavaScript and Puppeteer field </h3>
+            <p class="main__experience-subheading">September 2020 - Dezember 2021</p>
+          </header>
+          <p class="main__experience-paragraph">
+            I have trained myself in the field of javascript and Pupeteer during the time
+          </p>
+        </section>
 
-      <section>
-        <header>
-          <h3>Enalytics GmbH - Software Test and frontend development</h3>
-          <p class="main__experience__paragraph">Oktober 2022 - April 2021</p>
-        </header>
-        <p>
-          Testing and development of a web-based software solution in the logistics environment.
-          Project size: 9 people
-        </p>
-        <!--
-        <ul>
-          <h4>Main activities</h4>
-          <li>software tester and frontend developer</li>
-          <li>Manual software test</li>
-          <li>Bug tracking</li>
-          <li>Test Reporting</li>
-          <li>Agile approach(Scrum)</li>
-        </ul>
-        -->
-      </section>
-    </article>
-    <article id="skills">
-      <h2 class="skills__heading"><u>Skills</u></h2>
-      <section class="skills__section">
-        <h3 class="skills__subheading"><u>Soft Skills</u></h3>
-        <ul>
-          <li>Empathy</li>
-          <li>Communications</li>
-          <li>Ability to work in a team</li>
-        </ul>
-      </section>
-      <section class="skills__section">
-        <h3 class="skills__subheading"><u>Technical Skills</u></h3>
-        <ul>
-          <li>HTML and CSS</li>
-          <li>JavaScript</li>
-          <li>Vue.js</li>
-          <li>Node.js</li>
-          <li>Jira and Confluence</li>
-          <li>Selenium</li>
-          <li>Postman</li>
-          <li>Git/GitHub</li>
-        </ul>
-      </section>
-    </article>
+        <section>
+          <header>
+            <h3 class="main__experience-heading">Enalytics GmbH - Software Test and frontend development</h3>
+            <p class="main__experience-subheading">Oktober 2022 - April 2021</p>
+          </header>
+          <p class="main__experience-paragraph">
+            Testing and development of a web-based software solution in the logistics environment.
+            Project size: 9 people
+          </p>
+        </section>
+      </article>
+      <!-- Main-Skills -->
+      <article id="skills">
+        <h2 class="skills__heading"><u>Skills</u></h2>
 
-    <article id="contact">
-      <h2 class="contact__heading"><u>Contact</u></h2>
-      <ol type="i">
-        <li class="contact__heading-li">LinkIn:
-          <a href=" https://www.linkedin.com/">@Hamid Vahed</a>
-        </li>
-        <li class="contact__heading-li">E-Mail:
-          <a href=" mailto:hamid.vahed@gmx.de">Hamid Vahed</a>
-        </li>
-      </ol>
-    </article>
-  </main>
+        <section>
+          <h3 class="skills__subheading"><u>Soft Skills</u></h3>
+          <ul>
+            <li>Empathy</li>
+            <li>Communications</li>
+            <li>Ability to work in a team</li>
+          </ul>
+        </section>
 
-  <script src="./js/app.js"></script>
-</body>
+        <section>
+          <h3 class="skills__subheading"><u>Technical Skills</u></h3>
+          <ul>
+            <li>HTML and CSS</li>
+            <li>JavaScript</li>
+            <li>Rest API</li>
+            <li>Vue.js</li>
+            <li>Node.js</li>
+            <li>Jira and Confluence</li>
+            <li>Selenium</li>
+            <li>Postman</li>
+            <li>Git/GitHub</li>
+          </ul>
+        </section>
+      </article>
+      <!-- Main-Contact -->
+      <article id="contact">
+        <h2 class="contact__heading"><u>Contact</u></h2>
+        <ol type="i">
+          <li class="contact__heading-li">LinkIn:
+            <a href=" https://www.linkedin.com/">@Hamid Vahed</a>
+          </li>
+          <li class="contact__heading-li">E-Mail:
+            <a href=" mailto:hamid.vahed@gmx.de">Hamid Vahed</a>
+          </li>
+        </ol>
+      </article>
+
+    </main>
+
+    <script src="./js/app.js" defer></script>
+  </body>
+</div>
 <!--
 <footer>
   <ul>
@@ -171,6 +151,5 @@
     <li><a href="#">Contact</a></li>
   </ul>
 </footer>
-
 
 </html>

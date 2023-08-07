@@ -1,4 +1,4 @@
-body > header {
+.header {
   text-align: center;
   background-color: var(--color-midnightblue);
   background: linear-gradient(180deg, var(--color-blue), var(--color-orange));
@@ -9,14 +9,22 @@ body > header {
 }
 
 .header__heading {
-  text-shadow: 1px 1px 2px var(--color-orange);
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+
+.header__subheading {
+  text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
 }
 
 .header__paragraph {
   padding: 1rem;
 }
 
-.header__paragraph::after {
+.header__subheading::after {
   content: "😎";
 }
 
@@ -36,12 +44,13 @@ ul li a {
   text-decoration: none;
 }
 
-/*
-ul li a:hover {
-  color: var(--color-midnightblue);
+.btn__nav {
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
+  padding: 0.5remrem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: relative;
+  top: -23rem;
+  right: -30rem;
 }
-
-ul li a:active {
-  color: var(--color-orange);
-}
-*/
