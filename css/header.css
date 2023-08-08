@@ -114,6 +114,11 @@ ul li a {
     top: -16rem;
     left: 15rem;
   }
+
+  .header__nav > ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* ANCHOR Mobile First Breackpoints*/
