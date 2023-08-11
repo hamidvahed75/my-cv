@@ -90,7 +90,12 @@ section + section {
   background-color: var(--color-black);
   color: var(--color-white);
 }
-
+/* ANCHOR Grid */
+/* .main-article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px auto;
+} */
 /* ANCHOR Desktop First Breackpoints*/
 
 @media screen and (max-width: 1024px) {

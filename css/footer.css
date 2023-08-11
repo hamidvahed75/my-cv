@@ -6,8 +6,10 @@
   color: var(--color-ghostwhite);
   letter-spacing: 0.15rem;
   box-shadow: 10px 5px 5px var(--color-midnightblue);
+  border-top: 2px solid var(--color-orange);
 }
 
-.footer {
-  border-bottom: 1px solid black;
+.footer__heading {
+  font-size: 3.5rem;
+  font-weight: 500;
 }

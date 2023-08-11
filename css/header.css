@@ -27,11 +27,20 @@
 .header__subheading::after {
   content: "😎";
 }
-/*
-.header__nav {
-  position: relative;
+
+.header:focus-within .btn__nav {
+  transform: scale(1.5);
 }
-*/
+
+.header:hover {
+  transform: scale(1.5);
+}
+
+.header:hover .btn__nav {
+  transform: scaleX(0.5);
+  transform: scaleY(1.5);
+}
+
 .header__nav > ul {
   display: flex;
   justify-content: center;
@@ -46,6 +55,15 @@ nav ul {
 ul li a {
   color: var(--color-ghostwhite);
   text-decoration: none;
+
+  transition-duration: 1.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.nav-link:focus {
+  color: var(--color-ghostwhite);
+  transition-duration: 2s;
+  transition-timing-function: ease-in-out;
 }
 
 .box__btn {
@@ -53,10 +71,8 @@ ul li a {
 }
 
 .btn__nav {
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--color-orange);
   border-radius: 1rem;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
   font-size: 0.7rem;
 
   position: absolute;
@@ -64,6 +80,14 @@ ul li a {
   bottom: 22rem;
   padding: 0.2rem;
   border-radius: 0.5rem;
+
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.btn__nav:hover {
+  color: var(--secondary-color);
+  background-color: var(--color-midnightblue);
 }
 
 /* ANCHOR Desktop First Breackpoints*/
