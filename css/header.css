@@ -31,11 +31,11 @@
 .header:focus-within .btn__nav {
   transform: scale(1.5);
 }
-
+/*
 .header:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
 }
-
+*/
 .header:hover .btn__nav {
   transform: scaleX(0.5);
   transform: scaleY(1.5);
