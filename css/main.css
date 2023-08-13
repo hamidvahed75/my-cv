@@ -1,6 +1,8 @@
 .main {
   padding: 4rem 0;
   letter-spacing: 0.1rem;
+
+  display: grid;
 }
 
 .main__profile-heading,
@@ -105,6 +107,15 @@ section + section {
   .contact__heading {
     font-size: 2rem;
   }
+
+  .main__article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main__article-content {
+    margin-top: 4rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -113,6 +124,15 @@ section + section {
   .skills__heading,
   .contact__heading {
     font-size: 1.5rem;
+  }
+
+  .main__article {
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+  }
+
+  .main__article-content {
+    margin-top: 3rem;
   }
 }
 
